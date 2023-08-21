@@ -29,7 +29,7 @@ class MegaMenuAll extends Component {
         return(
             <div className="accordionMenuDivAll">
                 <div className="accordionMenuDivInsideAll">
-                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; Men's Clothing  </button>
+                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://cdn-icons-png.flaticon.com/128/739/739249.png" />&nbsp; Men's Clothing  </button>
                     <div className="panelAll">
                         <ul>
                             <li><a href="#" className="accordionItemAll" > Mans Tshirt 1</a></li>
@@ -37,7 +37,7 @@ class MegaMenuAll extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; Men's Clothing </button>
+                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://cdn-icons-png.flaticon.com/128/739/739249.png" />&nbsp; Men's Clothing </button>
                     <div className="panelAll">
                         <ul>
                             <li><a href="#" className="accordionItemAll" > Mans Tshirt 1</a></li>
@@ -45,7 +45,7 @@ class MegaMenuAll extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; Men's Clothing </button>
+                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://cdn-icons-png.flaticon.com/128/739/739249.png" />&nbsp; Men's Clothing </button>
                     <div className="panelAll">
                         <ul>
                             <li><a href="#" className="accordionItemAll" > Mans Tshirt 1</a></li>
@@ -53,7 +53,7 @@ class MegaMenuAll extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; Men's Clothing </button>
+                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://cdn-icons-png.flaticon.com/128/739/739249.png" />&nbsp; Men's Clothing </button>
                     <div className="panelAll">
                         <ul>
                             <li><a href="#" className="accordionItemAll" > Mans Tshirt 1</a></li>
@@ -61,7 +61,7 @@ class MegaMenuAll extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; Men's Clothing </button>
+                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://cdn-icons-png.flaticon.com/128/739/739249.png" />&nbsp; Men's Clothing </button>
                     <div className="panelAll">
                         <ul>
                             <li><a href="#" className="accordionItemAll" > Mans Tshirt 1</a></li>
@@ -69,7 +69,7 @@ class MegaMenuAll extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; Men's Clothing </button>
+                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://cdn-icons-png.flaticon.com/128/739/739249.png" />&nbsp; Men's Clothing </button>
                     <div className="panelAll">
                         <ul>
                             <li><a href="#" className="accordionItemAll" > Mans Tshirt 1</a></li>
@@ -77,7 +77,7 @@ class MegaMenuAll extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; Men's Clothing </button>
+                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://cdn-icons-png.flaticon.com/128/739/739249.png" />&nbsp; Men's Clothing </button>
                     <div className="panelAll">
                         <ul>
                             <li><a href="#" className="accordionItemAll" > Mans Tshirt 1</a></li>
@@ -85,7 +85,7 @@ class MegaMenuAll extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; Men's Clothing </button>
+                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://cdn-icons-png.flaticon.com/128/739/739249.png" />&nbsp; Men's Clothing </button>
                     <div className="panelAll">
                         <ul>
                             <li><a href="#" className="accordionItemAll" > Mans Tshirt 1</a></li>
@@ -93,7 +93,7 @@ class MegaMenuAll extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; Men's Clothing </button>
+                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://cdn-icons-png.flaticon.com/128/739/739249.png" />&nbsp; Men's Clothing </button>
                     <div className="panelAll">
                         <ul>
                             <li><a href="#" className="accordionItemAll" > Mans Tshirt 1</a></li>
@@ -101,7 +101,7 @@ class MegaMenuAll extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; Men's Clothing </button>
+                    <button className="accordionAll"><img className="accordionMenuIconAll" src="https://cdn-icons-png.flaticon.com/128/739/739249.png" />&nbsp; Men's Clothing </button>
                     <div className="panelAll">
                         <ul>
                             <li><a href="#" className="accordionItemAll" > Mans Tshirt 1</a></li>

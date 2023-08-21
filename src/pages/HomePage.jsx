@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react'
+import FeaturedProducts from '../components/Home/FeaturedProducts'
 
 
 
@@ -6,7 +7,7 @@ class HomePage extends Component {
   render() {
     return (
       <Fragment>
-        <h1>This is Home Page</h1>
+        <FeaturedProducts />
       </Fragment>
     )
   }

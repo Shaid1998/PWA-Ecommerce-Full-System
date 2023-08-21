@@ -6,6 +6,7 @@ import NewArrival from '../components/Home/NewArrival'
 import HomeTop from '../components/Home/HomeTop'
 import NavMenuDesktop from '../components/Common/NavMenuDesktop'
 import NavMenuMobile from '../components/Common/NavMenuMobile'
+import HomeTopMobile from '../components/Home/HomeTopMobile'
 
 class HomePage extends Component {
   render() {
@@ -13,6 +14,14 @@ class HomePage extends Component {
       <Fragment>
         <NavMenuMobile />
         <HomeTop />
+        <div className="Desktop">
+          <NavMenuDesktop />
+          <HomeTop />
+        </div>
+        <div className="Mobile">
+          <NavMenuMobile />  
+          <HomeTopMobile />
+        </div>
         <FeaturedProducts />
         <NewArrival />
         <Categories />

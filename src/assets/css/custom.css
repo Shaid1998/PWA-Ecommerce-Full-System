@@ -7,6 +7,7 @@
 @import 'NavMenuDesktop.css';
 @import 'NavMenuMobile.css';
 @import 'Typo.css'; 
+@import 'MegaMenuMobile.css';
 
 body{
     background-color: #ffffff;

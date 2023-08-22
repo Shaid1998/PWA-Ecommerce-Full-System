@@ -7,25 +7,31 @@ import HomeTop from '../components/Home/HomeTop'
 import NavMenuDesktop from '../components/Common/NavMenuDesktop'
 import NavMenuMobile from '../components/Common/NavMenuMobile'
 import HomeTopMobile from '../components/Home/HomeTopMobile'
+import FooterDesktop from '../components/Common/FooterDesktop'
+import FooterMobile from '../components/Common/FooterMobile'
 
 class HomePage extends Component {
   render() {
     return (
       <Fragment>
-        <NavMenuMobile />
-        <HomeTop />
         <div className="Desktop">
           <NavMenuDesktop />
           <HomeTop />
         </div>
         <div className="Mobile">
-          <NavMenuMobile />  
+          <NavMenuMobile />
           <HomeTopMobile />
         </div>
         <FeaturedProducts />
         <NewArrival />
         <Categories />
         <Collection />
+        <div className="Desktop">
+          <FooterDesktop/>
+        </div>
+        <div className="Mobile">
+          <FooterMobile />
+        </div>
       </Fragment>
     )
   }

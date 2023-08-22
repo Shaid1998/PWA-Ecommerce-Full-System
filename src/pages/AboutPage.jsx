@@ -3,15 +3,15 @@ import FooterDesktop from '../components/Common/FooterDesktop'
 import FooterMobile from '../components/Common/FooterMobile'
 import NavMenuDesktop from '../components/Common/NavMenuDesktop'
 import NavMenuMobile from '../components/Common/NavMenuMobile'
-import UserLogin from '../components/Common/UserLogin'
+import AboutUs from '../components/others/AboutUs'
 
-class ContactPage extends Component {
+class AboutPage extends Component {
     componentDidMount(){
         window.scroll(0,0)
     }
     render() {
         return (
-            <Fragment>
+            <Fragment> 
                 <div className="Desktop">
                     <NavMenuDesktop /> 
                 </div>
@@ -20,7 +20,7 @@ class ContactPage extends Component {
                     <NavMenuMobile />  
                 </div>                       
 
-                <UserLogin /> 
+                <AboutUs />
 
                 <div className="Desktop">
                     <FooterDesktop/>
@@ -34,4 +34,4 @@ class ContactPage extends Component {
     }
 }
 
-export default ContactPage
+export default AboutPage

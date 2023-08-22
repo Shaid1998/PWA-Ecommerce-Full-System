@@ -1,17 +1,17 @@
 import React, { Component, Fragment } from 'react'
-import FooterDesktop from '../components/Common/FooterDesktop'
-import FooterMobile from '../components/Common/FooterMobile'
-import NavMenuDesktop from '../components/Common/NavMenuDesktop'
-import NavMenuMobile from '../components/Common/NavMenuMobile'
-import UserLogin from '../components/Common/UserLogin'
+import FooterDesktop from '../components/Common/NavMenuDesktop'
+import FooterMobile from '../components/Common/NavMenuMobile'
+import NavMenuDesktop from '../components/Common/FooterDesktop'
+import NavMenuMobile from '../components/Common/FooterMobile'
+import Privacy from '../components/others/Privacy'
 
-class ContactPage extends Component {
+class PrivecyPage extends Component {
     componentDidMount(){
         window.scroll(0,0)
     }
     render() {
         return (
-            <Fragment>
+            <Fragment> 
                 <div className="Desktop">
                     <NavMenuDesktop /> 
                 </div>
@@ -20,7 +20,7 @@ class ContactPage extends Component {
                     <NavMenuMobile />  
                 </div>                       
 
-                <UserLogin /> 
+                <Privacy /> 
 
                 <div className="Desktop">
                     <FooterDesktop/>
@@ -34,4 +34,5 @@ class ContactPage extends Component {
     }
 }
 
-export default ContactPage
+
+export default PrivecyPage

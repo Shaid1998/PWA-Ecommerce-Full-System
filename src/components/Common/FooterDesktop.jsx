@@ -21,17 +21,16 @@ class FooterDesktop extends Component {
               </Col>
               <Col className='p-2' lg={3} mf={3} sm={6} xs={12}>
                 <h5 className='footer-menu-title'>THE COMPANY</h5>
-                <Link to="/" className="footer-link"> About Us</Link><br></br>
-                <Link to="/" className="footer-link"> Company Profile</Link><br></br>
+                <Link to="/about" className="footer-link"> About Us</Link><br></br>
                 <Link to="/contact" className="footer-link"> Contact Us</Link><br></br>
-                <Link to="/" className="footer-link">How To Purchase</Link><br></br>
-                <Link to="/" className="footer-link"> Privacy Policy</Link><br></br>
-                <Link to="/" className="footer-link"> Refund Policy </Link><br></br>
+                <Link to="/purchase" className="footer-link">How To Purchase</Link><br></br>
+                <Link to="/privacy" className="footer-link"> Privacy Policy</Link><br></br>
+                <Link to="/refund" className="footer-link"> Refund Policy </Link><br></br>
               </Col>
               <Col className='p-2' lg={3} mf={3} sm={6} xs={12}>
                 <h5 className='footer-menu-title'>CAREER</h5>
-                <Link to="/" className="footer-link">OPEN JOBS</Link><br></br>
-                <Link to="/" className="footer-link"> WHY JOIN US?</Link><br></br>
+                <Link to="/openjobs" className="footer-link">OPEN JOBS</Link><br></br>
+                <Link to="/whyjoinus" className="footer-link"> WHY JOIN US?</Link><br></br>
               </Col>
               <Col className='p-2' lg={3} mf={3} sm={6} xs={12}>
                 <h5 className='footer-menu-title'>APPS</h5>

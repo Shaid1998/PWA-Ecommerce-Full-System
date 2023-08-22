@@ -11,6 +11,9 @@ import FooterDesktop from '../components/Common/FooterDesktop'
 import FooterMobile from '../components/Common/FooterMobile'
 
 class HomePage extends Component {
+  componentDidMount(){
+    window.scroll(0,0)
+  }
   render() {
     return (
       <Fragment>

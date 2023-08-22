@@ -3,35 +3,36 @@ import FooterDesktop from '../components/Common/FooterDesktop'
 import FooterMobile from '../components/Common/FooterMobile'
 import NavMenuDesktop from '../components/Common/NavMenuDesktop'
 import NavMenuMobile from '../components/Common/NavMenuMobile'
-import UserLogin from '../components/Common/UserLogin'
+import Purchase from '../components/others/Purchase'
 
-class ContactPage extends Component {
+class PurchasePage extends Component {
     componentDidMount(){
         window.scroll(0,0)
     }
+
     render() {
         return (
-            <Fragment>
-                <div className="Desktop">
+            <Fragment> 
+               <div className="Desktop">
                     <NavMenuDesktop /> 
-                </div>
+               </div>
 
-                <div className="Mobile">
+               <div className="Mobile">
                     <NavMenuMobile />  
-                </div>                       
+               </div>                       
 
-                <UserLogin /> 
+               <Purchase /> 
 
-                <div className="Desktop">
+               <div className="Desktop">
                     <FooterDesktop/>
-                </div>
+               </div>
 
-                <div className="Mobile">
+               <div className="Mobile">
                     <FooterMobile/>
-                </div>
+               </div>
             </Fragment>
         )
     }
 }
 
-export default ContactPage
+export default PurchasePage

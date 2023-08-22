@@ -23,7 +23,7 @@ class FooterDesktop extends Component {
                 <h5 className='footer-menu-title'>THE COMPANY</h5>
                 <Link to="/" className="footer-link"> About Us</Link><br></br>
                 <Link to="/" className="footer-link"> Company Profile</Link><br></br>
-                <Link to="/" className="footer-link"> Contact Us</Link><br></br>
+                <Link to="/contact" className="footer-link"> Contact Us</Link><br></br>
                 <Link to="/" className="footer-link">How To Purchase</Link><br></br>
                 <Link to="/" className="footer-link"> Privacy Policy</Link><br></br>
                 <Link to="/" className="footer-link"> Refund Policy </Link><br></br>

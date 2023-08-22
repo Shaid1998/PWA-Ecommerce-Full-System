@@ -5,22 +5,22 @@ import NavMenuDesktop from '../components/Common/NavMenuDesktop'
 import NavMenuMobile from '../components/Common/NavMenuMobile'
 import UserLogin from '../components/Common/UserLogin'
 
-class UserLoginPage extends Component {
-    render() {
+class ContactPage extends Component {
+  render() {
         return (
-             <Fragment> 
+            <Fragment>
                 <div className="Desktop">
                     <NavMenuDesktop /> 
                 </div>
 
                 <div className="Mobile">
-                <NavMenuMobile />  
+                    <NavMenuMobile />  
                 </div>                       
 
                 <UserLogin /> 
 
                 <div className="Desktop">
-                <FooterDesktop/>
+                    <FooterDesktop/>
                 </div>
 
                 <div className="Mobile">
@@ -28,7 +28,7 @@ class UserLoginPage extends Component {
                 </div>
             </Fragment>
         )
-   }
+    }
 }
 
-export default UserLoginPage
+export default ContactPage

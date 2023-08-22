@@ -10,6 +10,7 @@ import HomeTopMobile from '../components/Home/HomeTopMobile'
 import FooterDesktop from '../components/Common/FooterDesktop'
 import FooterMobile from '../components/Common/FooterMobile'
 
+
 class HomePage extends Component {
   componentDidMount(){
     window.scroll(0,0)

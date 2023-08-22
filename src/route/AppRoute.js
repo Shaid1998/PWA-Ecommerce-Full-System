@@ -1,14 +1,14 @@
 import React, { Component, Fragment } from 'react'
 import { Route, Routes } from 'react-router'
 import HomePage from '../pages/HomePage'
-import UserLoginPage from '../pages/UserLoginPage';
-import ContactPage from '../pages/ContactPage';
-import PrivacyPage from '../pages/PrivacyPage';
-import PurchasePage from '../pages/PurchasePage';
-import RefundPage from '../pages/RefundPage';
-import AboutPage from '../pages/AboutPage';
-import OpenJobsPage from '../pages/OpenJobsPage';
-import WhyJoinUsPage from '../pages/WhyJoinUsPage';
+import UserLoginPage from '../pages/UserLoginPage'
+import ContactPage from '../pages/ContactPage'
+import PrivacyPage from '../pages/PrivecyPage'
+import PurchasePage from '../pages/PurchasePage'
+import RefundPage from '../pages/RefundPage'
+import AboutPage from '../pages/AboutPage'
+import OpenJobsPage from '../pages/OpenJobsPage'
+import WhyJoinUsPage from '../pages/WhyJoinUsPage'
 
 class AppRoute extends Component {
   render() {

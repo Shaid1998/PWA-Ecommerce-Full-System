@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react'
 import FooterDesktop from '../components/Common/NavMenuDesktop'
 import FooterMobile from '../components/Common/NavMenuMobile'
+import Privacy from '../components/others/Privacy'
 import NavMenuDesktop from '../components/Common/FooterDesktop'
 import NavMenuMobile from '../components/Common/FooterMobile'
-import Privacy from '../components/others/Privacy'
 
 class PrivecyPage extends Component {
     componentDidMount(){
@@ -14,21 +14,22 @@ class PrivecyPage extends Component {
             <Fragment> 
                 <div className="Desktop">
                     <NavMenuDesktop /> 
-                </div>
+               </div>
 
-                <div className="Mobile">
+               <div className="Mobile">
                     <NavMenuMobile />  
-                </div>                       
+               </div> 
 
                 <Privacy /> 
-
+                
                 <div className="Desktop">
                     <FooterDesktop/>
-                </div>
+               </div>
 
-                <div className="Mobile">
+               <div className="Mobile">
                     <FooterMobile/>
-                </div>
+               </div>
+
             </Fragment>
         )
     }

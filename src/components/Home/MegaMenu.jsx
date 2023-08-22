@@ -28,6 +28,19 @@ class MegaMenu extends Component {
     return (
       <div className="accordionMenuDiv">
         <div className="accordionMenuDivInside">
+
+        <button class="accordion">Dropdown<i class="accordionMenuIcon"></i></button>
+        <div class="panel">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+
+
+
+
+
+
           <button className="accordion"><img className="accordionMenuIcon" src="https://cdn-icons-png.flaticon.com/128/739/739249.png" />&nbsp; Men's Clothing </button>
           <div className="panel">
             <ul>

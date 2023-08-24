@@ -11,6 +11,12 @@
     box-shadow: 0 0 12px 0 rgba(57, 78, 234, 0.1)
 }
 
+.bar-img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer !important;
+}
+
 .image-box {
     position: relative;
     margin: auto;

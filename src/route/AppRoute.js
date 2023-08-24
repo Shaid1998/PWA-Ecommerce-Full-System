@@ -11,6 +11,7 @@ import OpenJobsPage from '../pages/OpenJobsPage'
 import WhyJoinUsPage from '../pages/WhyJoinUsPage'
 import ProductDetailsPage from '../pages/ProductDetailsPage'
 import NotificationPage from '../pages/NotificationPage'
+import FavouritePage from '../pages/FavouritePage'
 
 class AppRoute extends Component {
   render() {
@@ -28,6 +29,7 @@ class AppRoute extends Component {
             <Route exact path="/whyjoinus" element={<WhyJoinUsPage />}></Route>
             <Route exact path="/productdetails" element={<ProductDetailsPage />}></Route>
             <Route exact path="/notification" element={<NotificationPage />}></Route>
+            <Route exact path="/favourite" element={<FavouritePage />}></Route>
         </Routes>
       </Fragment>
     )

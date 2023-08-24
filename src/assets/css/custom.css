@@ -13,6 +13,7 @@
 @import "common.css";
 @import "onboard.css";
 @import "productDetails.css";
+@import "Notification.css";
 
 body{
     background-color: #ffffff;

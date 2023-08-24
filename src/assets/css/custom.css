@@ -14,6 +14,7 @@
 @import "onboard.css";
 @import "productDetails.css";
 @import "Notification.css";
+@import "CardList.css";
 
 body{
     background-color: #ffffff;

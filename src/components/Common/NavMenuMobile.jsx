@@ -39,7 +39,7 @@ class NavMenuMobile extends Component {
               <Col lg={4} md={4} sm={12} xs={12}>
                 <Button onClick={this.MenuBarClickHandler} className="btn"><i className="fa fa-bars"></i>  </Button>
                 <Link to="/"> <img className="nav-logo" src={Logo} /> </Link>
-                <Button className="cart-btn"><i className="fa fa-shopping-cart"></i> 3 Items </Button>
+                <Link to='/addtocart' className="cart-btn"><i className="fa fa-shopping-cart"></i> 3 Items </Link>
               </Col> 
             </Row>
           </Container>

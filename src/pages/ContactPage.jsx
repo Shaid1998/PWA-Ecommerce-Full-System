@@ -3,7 +3,7 @@ import FooterDesktop from '../components/Common/FooterDesktop'
 import FooterMobile from '../components/Common/FooterMobile'
 import NavMenuDesktop from '../components/Common/NavMenuDesktop'
 import NavMenuMobile from '../components/Common/NavMenuMobile'
-import UserLogin from '../components/Common/UserLogin'
+import ContactUs from '../components/Common/ContactUs'
 
 class ContactPage extends Component {
     componentDidMount(){
@@ -20,7 +20,7 @@ class ContactPage extends Component {
                     <NavMenuMobile />  
                 </div>                       
 
-                <UserLogin /> 
+                <ContactUs />
 
                 <div className="Desktop">
                     <FooterDesktop/>

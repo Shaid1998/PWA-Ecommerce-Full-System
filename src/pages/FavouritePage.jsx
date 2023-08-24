@@ -23,7 +23,7 @@ class FavouritePage extends Component {
                 <Favourite /> 
 
                 <div className="Desktop">
-                    <FooterDesktop/>
+                    <FooterDesktop />
                 </div>
 
                 <div className="Mobile">

@@ -24,4 +24,4 @@ use App\Http\Controllers\Admin\ContactController;
 Route::get('/getvisitordetails', [VisitorController::class, 'getVisitorDetails']);
 
 //Contact Route
-Route::get('/po', [ContactController::class, 'PostContactDetails']);
+Route::get('/postcontact', [ContactController::class, 'PostContactDetails']);

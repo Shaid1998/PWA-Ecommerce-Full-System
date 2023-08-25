@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\VisitorController;
+use App\Http\Controllers\Admin\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,6 @@ use App\Http\Controllers\Admin\VisitorController;
 
 //Visitor Route
 Route::get('/getvisitordetails', [VisitorController::class, 'getVisitorDetails']);
+
+//Contact Route
+Route::get('/po', [ContactController::class, 'PostContactDetails']);

@@ -7,7 +7,7 @@ import AboutUs from '../components/others/AboutUs'
 
 class AboutPage extends Component {
     componentDidMount(){
-        window.scroll(0,0)
+        window.scroll(0,0);
     }
     render() {
         return (

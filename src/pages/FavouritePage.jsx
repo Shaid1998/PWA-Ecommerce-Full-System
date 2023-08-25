@@ -7,7 +7,7 @@ import Favourite from '../components/Favourite/Favourite'
 
 class FavouritePage extends Component {
     componentDidMount(){
-        window.scroll(0,0)
+        window.scroll(0,0);
     }
     render() {
         return (

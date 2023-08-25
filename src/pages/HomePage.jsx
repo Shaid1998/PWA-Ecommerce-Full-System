@@ -9,11 +9,18 @@ import NavMenuMobile from '../components/Common/NavMenuMobile'
 import HomeTopMobile from '../components/Home/HomeTopMobile'
 import FooterDesktop from '../components/Common/FooterDesktop'
 import FooterMobile from '../components/Common/FooterMobile'
+import axios from 'axios'
+import BaseURL from '../BaseUrl/BaseURL'
 
 
 class HomePage extends Component {
   componentDidMount(){
-    window.scroll(0,0)
+    window.scroll(0,0);
+    this.GetVisitorDetails();
+  }
+
+  GetVisitorDetails=()=>{
+    axios.get(BaseURL.VisitorDetails).then().catch()
   }
   render() {
     return (

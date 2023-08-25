@@ -7,7 +7,7 @@ import Purchase from '../components/others/Purchase'
 
 class PurchasePage extends Component {
     componentDidMount(){
-        window.scroll(0,0)
+        window.scroll(0,0);
     }
 
     render() {

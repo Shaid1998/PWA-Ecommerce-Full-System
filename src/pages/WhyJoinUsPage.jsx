@@ -7,7 +7,7 @@ import WhyJoinUs from '../components/others/WhyJoinUs'
 
 class WhyJoinUsPage extends Component {
     componentDidMount(){
-        window.scroll(0,0)
+        window.scroll(0,0);
     }
     render() {
         return (

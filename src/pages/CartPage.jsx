@@ -7,7 +7,7 @@ import AddCart from '../components/Cart/AddCart'
 
 class CartPage extends Component {
     componentDidMount(){
-        window.scroll(0,0)
+        window.scroll(0,0);
     }
     render() {
         return (

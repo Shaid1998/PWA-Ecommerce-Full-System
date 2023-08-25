@@ -7,7 +7,7 @@ import NavMenuMobile from '../components/Common/FooterMobile'
 
 class PrivecyPage extends Component {
     componentDidMount(){
-        window.scroll(0,0)
+        window.scroll(0,0);
     }
     render() {
         return (
